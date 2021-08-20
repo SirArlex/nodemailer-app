@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&family=Trade+Winds&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background: #e7f1ff;
+    color: #a0acb5;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.wrapper {
+    width: 100%;
+    margin: 5px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125),
+    -1 -1px 2px rgba(0,0,0,0.125);
+}
+
+.resume .profile_info {
+text-align: center;
+}
+
+.resume .profile_info .profile_img {
+    width: 100px;
+    margin: 0 auto 5px;
+
+}
+.resume .profile_info .profile_img img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.resume .profile_info .profile_data .name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Trade Winds','cursive';
+}
+.resume .profile_info .profile_data  span{
+    color: #687c8e;
+}
+.resume .profile_info .view_more_btn a{
+    display: block;
+    background: #5558c9;
+    color: #fff;
+    padding: 10px 15px;
+    width: 155px;
+    margin: 15px auto;
+    border-radius: 3px;
+
+}
+.resume .profile_info .view_more_btn a:hover{
+    background: #7377ff;
+}
+.resume .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5558c9;
+    margin-bottom: 15px;
+}
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.skills ul li{
+    padding: 0 5px 10px;
+    width: 33.32%;
+    height: 85px;
+}
+.skills ul li .skill_item{
+background: #f2f4f5;
+width: 100%;
+height: 100%;
+border-radius: 3px;
+text-align: center;
+padding: 15px 10px;
+}
+.skills ul li .skill_item .icon{
+    background: url('https:') no-repeat 0 0;
+    width: 20px;
+    height:22px;
+}
+.flex-box-container-3 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
